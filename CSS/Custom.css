@@ -1,0 +1,22 @@
+body {
+    font-size: 16px;
+}
+
+nav {
+    display: inline-block;
+    height: 100vh;
+}
+
+.image {
+    width: 80%;
+    height: 35vh;
+    margin: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px #000;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
