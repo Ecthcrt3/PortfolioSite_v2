@@ -9,6 +9,9 @@
 
     <title>Gene Cathcart | Full Stack Developer</title>
 
+    <!-- Link to FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/e8ddeadb44.js" crossorigin="anonymous"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="CSS/Vendor/bootstrap.min.css" />
 
@@ -16,20 +19,53 @@
     <link rel="stylesheet" href="CSS/Custom.css" />
   </head>
   <body>
+    <nav class="bg-primary nav-dark" id="navbar">
 
-    <nav class="col-md-2 bg-primary nav-dark" id="navbar">
       <div class="image">
-        <img src="/assets/20221002_085057.jpg" alt="Gene Cathcart">
+        <img src="/assets/20221002_085057.jpg" alt="Gene Cathcart" />
       </div>
-      <div class="navbar-brand text-center">social media links</div>
-      <div class="navbar-nav">
+
+      <div class="navbar-brand">
+        <a href="https://github.com" target="_blank" rel="noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#"> | Gene Cathcart | </a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div class="navbar-nav text-end">
         <ul>
-          <li class="nav-item"></li>
+          <li class="nav-item"><a href="#aboutMe">About Me</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#resume">Resume</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+          <li class="nav-item"><a href="#links">Useful Links</a></li>
         </ul>
       </div>
     </nav>
-    <main class="col-md-10">
+
+    <head><h1 class="text-center">Hello World!</h1></head>
+
+    <main>
+      <div class="bg-warning text-center" id="aboutMe">
+        <h2>About Me</h2>
+      </div>
+      <div class="bg-danger text-center" id="projects">
+        <h2>Projects</h2>
+      </div>
+      <div class="bg-success text-center" id="Resume">
+        <h2>Resume</h2>
+      </div>
+      <div class="bg-primary text-center" id="projects">
+        <h2>Contact</h2>
+      </div>
+      <div class="bg-secondary text-center" id="links">
+        <h2>Useful Links</h2>
+      </div>
     </main>
+
     <footer></footer>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
